@@ -1,0 +1,99 @@
+/*
+ - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
+
+/* 
+
+TYPOGRAPHY - 
+ 
+ font-weights: 
+ default: 400
+
+ line-height:
+ default: 1rem
+
+ letter-spacing: 
+ big text: 0.2rem
+
+COLORS - 
+
+colors: #08070f, #1e1832
+
+
+tints:  #a5a3ad, 
+
+shades: 
+
+accents: 
+
+greys: 
+secondary-text: #bbb; 
+
+ shadows: 
+ 
+ 
+ 
+ 
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px */
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #1e1832, #08070f);
+
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* REUSABLE CLASSES */
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}

@@ -1,0 +1,130 @@
+/* NAVBAR */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* make nav sticky */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+/* HERO SECTION */
+.section-hero {
+  margin-bottom: 12.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-heading {
+  padding-top: 5.4rem;
+  font-size: 20rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.main-heading span {
+  color: #a5a3ad;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  color: #bbb;
+  padding-bottom: 4.8rem;
+}
+
+.hero {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.btn-main {
+  background-color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+  margin-bottom: 5.4rem;
+}
+
+.btn-main:link,
+.btn-main:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #08070f;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-down {
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+.learn-more-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  stroke: #08070f;
+}
+
+/* PROJECT SECTION */
+.section-projects {
+  margin-bottom: 12.8rem;
+}
+
+.project-clone-site {
+  margin-bottom: 9.6rem;
+}
+
+.project-section-heading {
+  margin-bottom: 9.6rem;
+}
+
+.project-text-box {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  padding: 2.4rem;
+}
+.project-heading {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+.project-description {
+  font-size: 2.4rem;
+  line-height: 2;
+}
+.project-img-box {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 1rem 0.5rem rgb(255, 255, 255, 0.2);
+}
+
+.project-img {
+  width: 100%;
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
