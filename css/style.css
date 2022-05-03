@@ -117,7 +117,7 @@
 .project-img-box {
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 0 1rem 0.5rem rgb(255, 255, 255, 0.2);
+  box-shadow: 0 0 1rem 0.5rem rgb(255, 255, 255, 0.05);
 }
 
 .project-img {
